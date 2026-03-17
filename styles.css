@@ -71,3 +71,18 @@ body{
     color:white;
     cursor:pointer;
 }
+
+.imagen-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+}
+
+.imagen-item span {
+    font-size: 13px;
+    font-weight: bold;
+    color: #555;
+    text-align: center;
+    width: 250px;
+}
